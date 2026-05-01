@@ -1,6 +1,6 @@
 "use client";
 // @ts-ignore
-import { ReactLenis } from "lenis/dist/lenis-react";
+import { ReactLenis } from "lenis/react";
 import {
   motion,
   useMotionTemplate,
