@@ -2,7 +2,6 @@
 import React from "react";
 import { MorphingText } from "@/components/ui/morphing-text";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
-
 export function Hero() {
   return (
     <section

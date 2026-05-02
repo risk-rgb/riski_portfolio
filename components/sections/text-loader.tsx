@@ -51,7 +51,7 @@ export function InitialLoader() {
         height="100vh" // Pakai 100vh supaya full satu layar
         background="black"
         imgUrl="/back-foto.png" // Pastikan sudah ada di folder public
-        text="R.RISKIANSYAH"
+        text="RISKIANSYAH"
       />
     </div>
   );

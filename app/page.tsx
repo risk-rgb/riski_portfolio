@@ -4,6 +4,7 @@ import { ReactLenis } from "lenis/react"; // Pastikan install: npm install lenis
 import { Navbar } from "@/components/navigation/navbar";
 import { SlideTabsNav } from "@/components/navigation/slide-tabs";
 import { Hero } from "@/components/sections/hero";
+import { VideoShowreel } from "@/components/sections/video-showreel"; // Import seksi video showreel
 import { Velocity } from "@/components/sections/velocity";
 import { ProjectsShowcase } from "@/components/sections/parallax-album"; // Import seksi Project dari parallax-album
 import { InitialLoader } from "@/components/sections/text-loader";
@@ -40,11 +41,12 @@ export default function Home() {
             <Navbar />
 
             <div className="absolute top-10 inset-x-0 z-50 flex justify-center pointer-events-none">
-              <div className="pointer-events-auto">
+              <div className="absolute bottom-8 md:bottom-12 left-1/2 -translate-x-1/2 z-50 w-full flex justify-center pointer-events-auto">
                 <SlideTabsNav />
               </div>
             </div>
             <Hero />
+            <VideoShowreel />
             <Velocity />
             <ProjectsShowcase />
             <JourneyTimeline />

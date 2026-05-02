@@ -43,7 +43,7 @@ export const Footer = () => {
             <ul className="flex flex-col gap-4">
               {[
                 "Home",
-                "Journey Timeline",
+                "Journey-timeline",
                 "Projects-section",
                 "Skills-section",
               ].map((item) => (
